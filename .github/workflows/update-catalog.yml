@@ -1,0 +1,47 @@
+name: Update SysML AI catalog
+
+on:
+  schedule:
+    # Runs daily; the script only proceeds after the internal 72-hour gate.
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignore the 3-day gate"
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-sysml-ai-catalog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Search and refresh catalog
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORCE_UPDATE: ${{ inputs.force || 'false' }}
+        run: node scripts/update-catalog.mjs
+      - name: Commit catalog changes
+        run: |
+          if git diff --quiet -- data/catalog.json; then
+            echo "No catalog changes"
+            exit 0
+          fi
+          git config user.name "sysml-ai-hub-bot"
+          git config user.email "sysml-ai-hub-bot@users.noreply.github.com"
+          git add data/catalog.json
+          git commit -m "data: refresh SysML AI catalog"
+          git push
