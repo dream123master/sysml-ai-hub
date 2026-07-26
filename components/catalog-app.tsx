@@ -53,9 +53,11 @@ export function CatalogApp({ data }: { data: CatalogData }) {
       if (normalizedMaturity && project.maturity !== normalizedMaturity) return false;
       return true;
     });
-    if (sort === "name") return result.toSorted((a, b) => a.name.localeCompare(b.name));
-    if (sort === "newest") return result.toSorted((a, b) => b.lastVerified.localeCompare(a.lastVerified));
-    return result.toSorted((a, b) => Number(b.verification === "verified") - Number(a.verification === "verified"));
+    if (sort === "name") return [...result].sort((a, b) => a.name.localeCompare(b.name));
+    if (sort === "newest") return [...result].sort((a, b) => b.lastVerified.localeCompare(a.lastVerified));
+    return [...result].sort(
+      (a, b) => Number(b.verification === "verified") - Number(a.verification === "verified"),
+    );
   }, [data.projects, deferredQuery, filters, language, sort]);
 
   function toggleProject(id: string) {
