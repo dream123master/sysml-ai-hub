@@ -34,7 +34,9 @@ jobs:
         run: npm run build
 
       - name: Install CloudBase CLI
-        run: npm install --global @cloudbase/cli
+        # CloudBase's own successful pipeline currently uses 2.11.5.
+        # Pin the same version to avoid the 3.x API-key verification regression.
+        run: npm install --global @cloudbase/cli@2.11.5
 
       - name: Log in to CloudBase
         env:
