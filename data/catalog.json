@@ -1,50 +1,21 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-26",
-    "nextUpdate": "2026-07-29",
+    "lastUpdated": "2026-07-29",
+    "nextUpdate": "2026-08-01",
     "intervalDays": 3,
-    "sources": ["GitHub", "npm Registry", "VS Code Marketplace", "Skills directories", "Official project websites"],
+    "sources": [
+      "GitHub",
+      "npm Registry",
+      "VS Code Marketplace",
+      "Skills directories",
+      "Official project websites"
+    ],
     "methodology": {
       "zh": "仅收录明确涉及 SysML v1、SysML v2、MBSE 或系统建模，并可进入大模型或 AI 工作流的可用项目；证据不足的候选项标记为待验证。",
       "en": "Includes usable projects explicitly related to SysML v1, SysML v2, MBSE, or systems modeling that participate in an LLM or AI workflow. Candidates with limited evidence are marked pending."
     }
   },
   "projects": [
-    {
-      "id": "hni-sysmlv2-mcp",
-      "slug": "hni-sysmlv2-mcp",
-      "name": "SysMLV2-MCP",
-      "kind": "MCP Server",
-      "summary": {
-        "zh": "面向 SysML v2 API 的开源 MCP Server，可供 AI 助手创建、查询和修改模型元素。",
-        "en": "An open-source MCP server for the SysML v2 API that lets AI assistants create, query, and modify model elements."
-      },
-      "functionality": {
-        "zh": "提供项目与元素查询、类型模式检查，以及包、需求、用例、信号、部件和接口的创建与属性修改；通过结构化 MCP 工具降低大模型直接操作 SysML v2 API 的门槛。",
-        "en": "Provides project and element queries, schema inspection, and creation or modification of packages, requirements, use cases, signals, parts, and interfaces through structured MCP tools."
-      },
-      "useCases": { "zh": ["需求建模", "架构设计", "接口建模", "模型维护"], "en": ["Requirements modeling", "Architecture design", "Interface modeling", "Model maintenance"] },
-      "platforms": ["Claude", "Codex", "Cursor", "GitHub Copilot", "MCP"],
-      "sysmlVersions": ["SysML v2"],
-      "capabilities": { "zh": ["模型查询", "模型生成", "模型编辑", "结构化 API"], "en": ["Model queries", "Model generation", "Model editing", "Structured API"] },
-      "openSource": "open",
-      "license": "MIT",
-      "verification": "verified",
-      "confidence": "high",
-      "maturity": "emerging",
-      "installation": "advanced",
-      "privacy": { "zh": "本地运行；数据边界取决于所连接的 MCP 客户端和 SysML API 服务。", "en": "Runs locally; data boundaries depend on the MCP client and connected SysML API service." },
-      "offline": "partial",
-      "githubUrl": "https://github.com/hni-ase/SysMLV2-mcp",
-      "githubRepo": "hni-ase/SysMLV2-mcp",
-      "homepageUrl": "https://github.com/hni-ase/SysMLV2-mcp",
-      "sourceUrl": "https://github.com/hni-ase/SysMLV2-mcp",
-      "lastVerified": "2026-07-26",
-      "lastActivity": "2026-07-18",
-      "stars": 3,
-      "sourceType": "GitHub",
-      "related": false
-    },
     {
       "id": "engineer-fumi-sysml-v2-mcp",
       "slug": "engineer-fumi-sysml-v2-mcp",
@@ -58,17 +29,55 @@
         "zh": "解析本地 .sysml/.kerml 文件，返回大纲、需求和图结构信息，并执行语法与基础语义验证；适合作为编码助手理解文本化 SysML 模型的上下文层。",
         "en": "Parses local .sysml and .kerml files, returns outlines, requirements and diagram structure, and performs syntax and basic semantic validation for coding agents."
       },
-      "useCases": { "zh": ["模型审查", "需求追踪", "一致性检查", "模型理解"], "en": ["Model review", "Requirements traceability", "Consistency checks", "Model comprehension"] },
-      "platforms": ["Claude", "Codex", "Cursor", "GitHub Copilot", "MCP"],
-      "sysmlVersions": ["SysML v2", "KerML"],
-      "capabilities": { "zh": ["模型解析", "模型验证", "需求提取", "结构导航"], "en": ["Model parsing", "Model validation", "Requirement extraction", "Structure navigation"] },
+      "useCases": {
+        "zh": [
+          "模型审查",
+          "需求追踪",
+          "一致性检查",
+          "模型理解"
+        ],
+        "en": [
+          "Model review",
+          "Requirements traceability",
+          "Consistency checks",
+          "Model comprehension"
+        ]
+      },
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "GitHub Copilot",
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v2",
+        "KerML"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型解析",
+          "模型验证",
+          "需求提取",
+          "结构导航"
+        ],
+        "en": [
+          "Model parsing",
+          "Model validation",
+          "Requirement extraction",
+          "Structure navigation"
+        ]
+      },
       "openSource": "unknown",
       "license": "MIT",
       "verification": "verified",
       "confidence": "high",
       "maturity": "emerging",
       "installation": "easy",
-      "privacy": { "zh": "以本地 stdio 方式读取模型；模型是否发送给云端取决于所用 AI 客户端。", "en": "Reads models locally over stdio; cloud exposure depends on the selected AI client." },
+      "privacy": {
+        "zh": "以本地 stdio 方式读取模型；模型是否发送给云端取决于所用 AI 客户端。",
+        "en": "Reads models locally over stdio; cloud exposure depends on the selected AI client."
+      },
       "offline": "partial",
       "githubUrl": null,
       "githubRepo": null,
@@ -78,6 +87,221 @@
       "lastActivity": "2026-07-03",
       "stars": null,
       "sourceType": "npm",
+      "related": false
+    },
+    {
+      "id": "simulink-agentic-toolkit",
+      "slug": "simulink-agentic-toolkit",
+      "name": "Simulink Agentic Toolkit",
+      "kind": "Agent Toolkit",
+      "summary": {
+        "zh": "让 AI Agent 读取、构建、编辑、测试模型并遵循 Model-Based Design 实践的 MCP 与 Skill 工具集。",
+        "en": "An MCP and skills toolkit that enables AI agents to read, build, edit, and test models using Model-Based Design practices."
+      },
+      "functionality": {
+        "zh": "组合 MCP 工具与领域 Skill，覆盖模型读取、编辑、仿真、测试、需求、项目管理和架构建模。它不是 SysML 专用工具，但适合作为 MBSE 下游验证与仿真阶段的相关项目。",
+        "en": "Combines MCP tools and domain skills for model reading, editing, simulation, testing, requirements, project management, and architecture. It is adjacent to SysML rather than SysML-specific."
+      },
+      "useCases": {
+        "zh": [
+          "架构分析",
+          "模型仿真",
+          "模型测试",
+          "验证分析"
+        ],
+        "en": [
+          "Architecture analysis",
+          "Model simulation",
+          "Model testing",
+          "Verification analysis"
+        ]
+      },
+      "platforms": [
+        "Claude Code",
+        "Codex",
+        "GitHub Copilot",
+        "Gemini CLI",
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "通用 MBSE"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型编辑",
+          "仿真",
+          "测试",
+          "架构分析"
+        ],
+        "en": [
+          "Model editing",
+          "Simulation",
+          "Testing",
+          "Architecture analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": "Repository license",
+      "verification": "verified",
+      "confidence": "high",
+      "maturity": "growing",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "工具可连接本地 MATLAB/Simulink 会话；AI 客户端的数据策略仍需单独评估。",
+        "en": "Tools can connect to a local MATLAB/Simulink session; the AI client's data policy must be evaluated separately."
+      },
+      "offline": "partial",
+      "githubUrl": "https://github.com/matlab/simulink-agentic-toolkit",
+      "githubRepo": "matlab/simulink-agentic-toolkit",
+      "homepageUrl": "https://github.com/matlab/simulink-agentic-toolkit",
+      "sourceUrl": "https://github.com/matlab/simulink-agentic-toolkit",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-07-22",
+      "stars": 878,
+      "sourceType": "GitHub",
+      "related": true
+    },
+    {
+      "id": "smp4-sysmlv2-skill",
+      "slug": "smp4-sysmlv2-skill",
+      "name": "sysmlv2 Claude Skill",
+      "kind": "Skill",
+      "summary": {
+        "zh": "为 Claude 提供 SysML v2 规范、标准库、示例模型和建模参考资料的社区 Skill。",
+        "en": "A community Claude skill providing SysML v2 specifications, standard libraries, examples, and modeling references."
+      },
+      "functionality": {
+        "zh": "把官方规范、标准库与社区示例组织为可检索知识集，帮助大模型回答语法、需求、架构和验证相关问题，并可在需要时刷新示例仓库或扩展网络检索。",
+        "en": "Organizes official specifications, libraries, and community examples into a searchable reference set for syntax, requirements, architecture, and verification questions."
+      },
+      "useCases": {
+        "zh": [
+          "建模学习",
+          "需求建模",
+          "架构设计",
+          "验证知识查询"
+        ],
+        "en": [
+          "Modeling education",
+          "Requirements modeling",
+          "Architecture design",
+          "Verification reference"
+        ]
+      },
+      "platforms": [
+        "Claude Code",
+        "Claude.ai",
+        "Claude API"
+      ],
+      "sysmlVersions": [
+        "SysML v2",
+        "KerML"
+      ],
+      "capabilities": {
+        "zh": [
+          "规范检索",
+          "示例查询",
+          "建模问答",
+          "知识增强"
+        ],
+        "en": [
+          "Specification search",
+          "Example retrieval",
+          "Modeling Q&A",
+          "Knowledge augmentation"
+        ]
+      },
+      "openSource": "open",
+      "license": "Repository license",
+      "verification": "verified",
+      "confidence": "high",
+      "maturity": "emerging",
+      "installation": "medium",
+      "privacy": {
+        "zh": "参考资料可本地保存；问答数据处理方式取决于 Claude 产品配置。",
+        "en": "References can be stored locally; prompt handling depends on the Claude product configuration."
+      },
+      "offline": "partial",
+      "githubUrl": "https://github.com/smp4/claude-skills",
+      "githubRepo": "smp4/claude-skills",
+      "homepageUrl": "https://skills.rest/skill/sysmlv2",
+      "sourceUrl": "https://skills.rest/skill/sysmlv2",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-05-11",
+      "stars": 0,
+      "sourceType": "Skill directory",
+      "related": false
+    },
+    {
+      "id": "hni-sysmlv2-mcp",
+      "slug": "hni-sysmlv2-mcp",
+      "name": "SysMLV2-MCP",
+      "kind": "MCP Server",
+      "summary": {
+        "zh": "面向 SysML v2 API 的开源 MCP Server，可供 AI 助手创建、查询和修改模型元素。",
+        "en": "An open-source MCP server for the SysML v2 API that lets AI assistants create, query, and modify model elements."
+      },
+      "functionality": {
+        "zh": "提供项目与元素查询、类型模式检查，以及包、需求、用例、信号、部件和接口的创建与属性修改；通过结构化 MCP 工具降低大模型直接操作 SysML v2 API 的门槛。",
+        "en": "Provides project and element queries, schema inspection, and creation or modification of packages, requirements, use cases, signals, parts, and interfaces through structured MCP tools."
+      },
+      "useCases": {
+        "zh": [
+          "需求建模",
+          "架构设计",
+          "接口建模",
+          "模型维护"
+        ],
+        "en": [
+          "Requirements modeling",
+          "Architecture design",
+          "Interface modeling",
+          "Model maintenance"
+        ]
+      },
+      "platforms": [
+        "Claude",
+        "Codex",
+        "Cursor",
+        "GitHub Copilot",
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v2"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型查询",
+          "模型生成",
+          "模型编辑",
+          "结构化 API"
+        ],
+        "en": [
+          "Model queries",
+          "Model generation",
+          "Model editing",
+          "Structured API"
+        ]
+      },
+      "openSource": "open",
+      "license": "MIT",
+      "verification": "verified",
+      "confidence": "high",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "本地运行；数据边界取决于所连接的 MCP 客户端和 SysML API 服务。",
+        "en": "Runs locally; data boundaries depend on the MCP client and connected SysML API service."
+      },
+      "offline": "partial",
+      "githubUrl": "https://github.com/hni-ase/SysMLV2-mcp",
+      "githubRepo": "hni-ase/SysMLV2-mcp",
+      "homepageUrl": "https://github.com/hni-ase/SysMLV2-mcp",
+      "sourceUrl": "https://github.com/hni-ase/SysMLV2-mcp",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-07-06",
+      "stars": 3,
+      "sourceType": "GitHub",
       "related": false
     },
     {
@@ -93,61 +317,181 @@
         "zh": "在 VS Code 中提供语法高亮、补全、格式化和 210 多项验证规则，并通过 Gemini 对话共同生成和修改 SysML v2 文本模型；同时提供 MCP 工具入口。",
         "en": "Provides highlighting, completion, formatting, more than 210 validation rules, Gemini-assisted model creation and editing, plus MCP tool integration in VS Code."
       },
-      "useCases": { "zh": ["需求建模", "架构设计", "模型初稿生成", "语法校验"], "en": ["Requirements modeling", "Architecture design", "Initial model generation", "Syntax validation"] },
-      "platforms": ["VS Code", "GitHub Codespaces", "Gemini", "MCP"],
-      "sysmlVersions": ["SysML v2", "KerML"],
-      "capabilities": { "zh": ["自然语言生成", "模型编辑", "实时验证", "代码补全"], "en": ["Natural-language generation", "Model editing", "Real-time validation", "Code completion"] },
+      "useCases": {
+        "zh": [
+          "需求建模",
+          "架构设计",
+          "模型初稿生成",
+          "语法校验"
+        ],
+        "en": [
+          "Requirements modeling",
+          "Architecture design",
+          "Initial model generation",
+          "Syntax validation"
+        ]
+      },
+      "platforms": [
+        "VS Code",
+        "GitHub Codespaces",
+        "Gemini",
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v2",
+        "KerML"
+      ],
+      "capabilities": {
+        "zh": [
+          "自然语言生成",
+          "模型编辑",
+          "实时验证",
+          "代码补全"
+        ],
+        "en": [
+          "Natural-language generation",
+          "Model editing",
+          "Real-time validation",
+          "Code completion"
+        ]
+      },
       "openSource": "closed",
       "license": "Proprietary",
       "verification": "verified",
       "confidence": "high",
       "maturity": "growing",
       "installation": "easy",
-      "privacy": { "zh": "语言服务本地运行；对话内容会发送至 Google Gemini API。", "en": "The language server runs locally; chat content is sent to the Google Gemini API." },
+      "privacy": {
+        "zh": "语言服务本地运行；对话内容会发送至 Google Gemini API。",
+        "en": "The language server runs locally; chat content is sent to the Google Gemini API."
+      },
       "offline": "partial",
       "githubUrl": null,
       "githubRepo": null,
       "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
       "sourceUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
-      "lastVerified": "2026-07-26",
+      "lastVerified": "2026-07-29",
       "lastActivity": "2026-06-30",
       "stars": null,
       "sourceType": "Marketplace",
       "related": false
     },
     {
-      "id": "smp4-sysmlv2-skill",
-      "slug": "smp4-sysmlv2-skill",
-      "name": "sysmlv2 Claude Skill",
-      "kind": "Skill",
+      "id": "cameo-mcp-bridge",
+      "slug": "cameo-mcp-bridge",
+      "name": "cameo-mcp-bridge",
+      "kind": "MCP Server",
       "summary": {
-        "zh": "为 Claude 提供 SysML v2 规范、标准库、示例模型和建模参考资料的社区 Skill。",
-        "en": "A community Claude skill providing SysML v2 specifications, standard libraries, examples, and modeling references."
+        "zh": "MCP server bridging AI assistants to CATIA Magic / Cameo Systems Modeler for SysML/UML model creation, querying, and manipulation",
+        "en": "MCP server bridging AI assistants to CATIA Magic / Cameo Systems Modeler for SysML/UML model creation, querying, and manipulation"
       },
       "functionality": {
-        "zh": "把官方规范、标准库与社区示例组织为可检索知识集，帮助大模型回答语法、需求、架构和验证相关问题，并可在需要时刷新示例仓库或扩展网络检索。",
-        "en": "Organizes official specifications, libraries, and community examples into a searchable reference set for syntax, requirements, architecture, and verification questions."
+        "zh": "公开描述：MCP server bridging AI assistants to CATIA Magic / Cameo Systems Modeler for SysML/UML model creation, querying, and manipulation。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "MCP server bridging AI assistants to CATIA Magic / Cameo Systems Modeler for SysML/UML model creation, querying, and manipulation This rule-extracted description requires human verification."
       },
-      "useCases": { "zh": ["建模学习", "需求建模", "架构设计", "验证知识查询"], "en": ["Modeling education", "Requirements modeling", "Architecture design", "Verification reference"] },
-      "platforms": ["Claude Code", "Claude.ai", "Claude API"],
-      "sysmlVersions": ["SysML v2", "KerML"],
-      "capabilities": { "zh": ["规范检索", "示例查询", "建模问答", "知识增强"], "en": ["Specification search", "Example retrieval", "Modeling Q&A", "Knowledge augmentation"] },
+      "useCases": {
+        "zh": [
+          "模型理解"
+        ],
+        "en": [
+          "Model comprehension"
+        ]
+      },
+      "platforms": [
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML (version unspecified)"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型生成",
+          "模型查询"
+        ],
+        "en": [
+          "Model generation",
+          "Model queries"
+        ]
+      },
       "openSource": "open",
-      "license": "Repository license",
-      "verification": "verified",
-      "confidence": "high",
+      "license": "MIT",
+      "verification": "pending",
+      "confidence": "low",
       "maturity": "emerging",
-      "installation": "medium",
-      "privacy": { "zh": "参考资料可本地保存；问答数据处理方式取决于 Claude 产品配置。", "en": "References can be stored locally; prompt handling depends on the Claude product configuration." },
-      "offline": "partial",
-      "githubUrl": "https://github.com/smp4/claude-skills",
-      "githubRepo": "smp4/claude-skills",
-      "homepageUrl": "https://skills.rest/skill/sysmlv2",
-      "sourceUrl": "https://skills.rest/skill/sysmlv2",
-      "lastVerified": "2026-07-26",
-      "lastActivity": null,
-      "stars": null,
-      "sourceType": "Skill directory",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
+      "githubRepo": "ajhcs/cameo-mcp-bridge",
+      "homepageUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
+      "sourceUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-05-05",
+      "stars": 29,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "drawio-skill",
+      "slug": "drawio-skill",
+      "name": "drawio-skill",
+      "kind": "Skill",
+      "summary": {
+        "zh": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG.",
+        "en": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG."
+      },
+      "functionality": {
+        "zh": "公开描述：Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Generate draw.io diagrams from natural language — 11 presets (UML, SysML/MBSE, BPMN, network, C4…), 36 tools: codebase/CI/infra-to-diagram, image→editable diagram, mind maps, build-up animation, exec-view compression, click-through runbooks, PR diff bot. Vision self-check, 10,000+ shapes. Exports PNG/SVG/PDF/JPG. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型验证"
+        ],
+        "en": [
+          "Model validation"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML (version unspecified)"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型生成",
+          "模型编辑",
+          "模型验证"
+        ],
+        "en": [
+          "Model generation",
+          "Model editing",
+          "Model validation"
+        ]
+      },
+      "openSource": "open",
+      "license": "MIT",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/Agents365-ai/drawio-skill",
+      "githubRepo": "Agents365-ai/drawio-skill",
+      "homepageUrl": "https://github.com/Agents365-ai/drawio-skill",
+      "sourceUrl": "https://github.com/Agents365-ai/drawio-skill",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-07-25",
+      "stars": 6804,
+      "sourceType": "GitHub",
       "related": false
     },
     {
@@ -163,25 +507,287 @@
         "zh": "为形式化建模任务提供可复用指令与审查流程，辅助识别需求歧义、组织系统结构与行为、检查状态机完整性，并生成可审查的建模说明。",
         "en": "Provides reusable guidance and review workflows for formal modeling, requirement ambiguity checks, system structure and behavior, state-machine completeness, and model documentation."
       },
-      "useCases": { "zh": ["需求分析", "结构建模", "行为建模", "模型文档生成"], "en": ["Requirements analysis", "Structural modeling", "Behavior modeling", "Model documentation"] },
-      "platforms": ["Claude Code"],
-      "sysmlVersions": ["SysML v1", "UML"],
-      "capabilities": { "zh": ["需求分析", "形式化建模", "模型审查", "文档生成"], "en": ["Requirements analysis", "Formal modeling", "Model review", "Document generation"] },
+      "useCases": {
+        "zh": [
+          "需求分析",
+          "结构建模",
+          "行为建模",
+          "模型文档生成"
+        ],
+        "en": [
+          "Requirements analysis",
+          "Structural modeling",
+          "Behavior modeling",
+          "Model documentation"
+        ]
+      },
+      "platforms": [
+        "Claude Code"
+      ],
+      "sysmlVersions": [
+        "SysML v1",
+        "UML"
+      ],
+      "capabilities": {
+        "zh": [
+          "需求分析",
+          "形式化建模",
+          "模型审查",
+          "文档生成"
+        ],
+        "en": [
+          "Requirements analysis",
+          "Formal modeling",
+          "Model review",
+          "Document generation"
+        ]
+      },
       "openSource": "open",
-      "license": "Repository license",
+      "license": "MIT",
       "verification": "pending",
       "confidence": "medium",
       "maturity": "emerging",
       "installation": "medium",
-      "privacy": { "zh": "插件指令本地安装；模型内容的处理方式取决于 Claude Code 配置。", "en": "Plugin instructions install locally; model-data handling depends on Claude Code configuration." },
+      "privacy": {
+        "zh": "插件指令本地安装；模型内容的处理方式取决于 Claude Code 配置。",
+        "en": "Plugin instructions install locally; model-data handling depends on Claude Code configuration."
+      },
       "offline": "partial",
       "githubUrl": "https://github.com/melodic-software/claude-code-plugins",
       "githubRepo": "melodic-software/claude-code-plugins",
       "homepageUrl": "https://github.com/melodic-software/claude-code-plugins",
       "sourceUrl": "https://github.com/melodic-software/claude-code-plugins",
-      "lastVerified": "2026-07-26",
-      "lastActivity": null,
-      "stars": null,
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-07-29",
+      "stars": 5,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "inspecta-spec-code-proof-copilot",
+      "slug": "inspecta-spec-code-proof-copilot",
+      "name": "INSPECTA-Spec-Code-Proof-Copilot",
+      "kind": "Agent",
+      "summary": {
+        "zh": "Spec, Code, and Proofs copilot for SysML v2. This multi-agent neuro-symbolic copilot leverages the INSPECTA symbolic toolchain, coupled with highly automated human-in-the-loop mechanisms, to generate trustworthy infrastructure and  system code directly from SysML v2 models.",
+        "en": "Spec, Code, and Proofs copilot for SysML v2. This multi-agent neuro-symbolic copilot leverages the INSPECTA symbolic toolchain, coupled with highly automated human-in-the-loop mechanisms, to generate trustworthy infrastructure and  system code directly from SysML v2 models."
+      },
+      "functionality": {
+        "zh": "公开描述：Spec, Code, and Proofs copilot for SysML v2. This multi-agent neuro-symbolic copilot leverages the INSPECTA symbolic toolchain, coupled with highly automated human-in-the-loop mechanisms, to generate trustworthy infrastructure and  system code directly from SysML v2 models.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Spec, Code, and Proofs copilot for SysML v2. This multi-agent neuro-symbolic copilot leverages the INSPECTA symbolic toolchain, coupled with highly automated human-in-the-loop mechanisms, to generate trustworthy infrastructure and  system code directly from SysML v2 models. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "架构设计"
+        ],
+        "en": [
+          "Architecture design"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML v2"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型生成"
+        ],
+        "en": [
+          "Model generation"
+        ]
+      },
+      "openSource": "open",
+      "license": "BSD-3-Clause",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
+      "githubRepo": "loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
+      "homepageUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
+      "sourceUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-07-28",
+      "stars": 1,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "jgs-magic-sysmlv1-mcp",
+      "slug": "jgs-magic-sysmlv1-mcp",
+      "name": "jgs-magic-sysmlv1-mcp",
+      "kind": "MCP Server",
+      "summary": {
+        "zh": "Bring Claude Code and any MCP agent to your live SysML v1 models in CATIA Magic: 130+ tools to query, audit, and edit the real model over a local, air-gapped connection. No cloud, no export. FREE / PRO / ENTERPRISE.",
+        "en": "Bring Claude Code and any MCP agent to your live SysML v1 models in CATIA Magic: 130+ tools to query, audit, and edit the real model over a local, air-gapped connection. No cloud, no export. FREE / PRO / ENTERPRISE."
+      },
+      "functionality": {
+        "zh": "公开描述：Bring Claude Code and any MCP agent to your live SysML v1 models in CATIA Magic: 130+ tools to query, audit, and edit the real model over a local, air-gapped connection. No cloud, no export. FREE / PRO / ENTERPRISE.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Bring Claude Code and any MCP agent to your live SysML v1 models in CATIA Magic: 130+ tools to query, audit, and edit the real model over a local, air-gapped connection. No cloud, no export. FREE / PRO / ENTERPRISE. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型理解"
+        ],
+        "en": [
+          "Model comprehension"
+        ]
+      },
+      "platforms": [
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v1"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型编辑",
+          "模型查询"
+        ],
+        "en": [
+          "Model editing",
+          "Model queries"
+        ]
+      },
+      "openSource": "open",
+      "license": "NOASSERTION",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
+      "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
+      "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
+      "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-07-04",
+      "stars": 0,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "jgs-magic-sysmlv1-pro",
+      "slug": "jgs-magic-sysmlv1-pro",
+      "name": "jgs-magic-sysmlv1-pro",
+      "kind": "MCP Server",
+      "summary": {
+        "zh": "Licensed pro-extension JAR for the JGS SysML v1 MCP Bridge. Unlocks write-tier and pro model tools for AI agents in CATIA Magic.",
+        "en": "Licensed pro-extension JAR for the JGS SysML v1 MCP Bridge. Unlocks write-tier and pro model tools for AI agents in CATIA Magic."
+      },
+      "functionality": {
+        "zh": "公开描述：Licensed pro-extension JAR for the JGS SysML v1 MCP Bridge. Unlocks write-tier and pro model tools for AI agents in CATIA Magic.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Licensed pro-extension JAR for the JGS SysML v1 MCP Bridge. Unlocks write-tier and pro model tools for AI agents in CATIA Magic. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型理解",
+          "模型审查"
+        ],
+        "en": [
+          "Model comprehension",
+          "Model review"
+        ]
+      },
+      "platforms": [
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v1"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": "NOASSERTION",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
+      "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-pro",
+      "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
+      "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-06-26",
+      "stars": 0,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "jgs-magic-sysmlv1-read-skills",
+      "slug": "jgs-magic-sysmlv1-read-skills",
+      "name": "jgs-magic-sysmlv1-read-skills",
+      "kind": "Skill",
+      "summary": {
+        "zh": "Read-only SysML v1 model analysis skills for CATIA Magic: navigate, inspect, audit, report. Free to use, works with Claude Code and other agents.",
+        "en": "Read-only SysML v1 model analysis skills for CATIA Magic: navigate, inspect, audit, report. Free to use, works with Claude Code and other agents."
+      },
+      "functionality": {
+        "zh": "公开描述：Read-only SysML v1 model analysis skills for CATIA Magic: navigate, inspect, audit, report. Free to use, works with Claude Code and other agents.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Read-only SysML v1 model analysis skills for CATIA Magic: navigate, inspect, audit, report. Free to use, works with Claude Code and other agents. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型文档生成"
+        ],
+        "en": [
+          "Model documentation"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML v1"
+      ],
+      "capabilities": {
+        "zh": [
+          "文档生成"
+        ],
+        "en": [
+          "Document generation"
+        ]
+      },
+      "openSource": "open",
+      "license": "Apache-2.0",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
+      "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
+      "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
+      "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-06-27",
+      "stars": 1,
       "sourceType": "GitHub",
       "related": false
     },
@@ -198,70 +804,203 @@
         "zh": "支持项目、分支、提交与标签导航，浏览模型元素和关系，提取需求与视图，并运行参数化计算；公开介绍称基于 OMG SysML v2 API。",
         "en": "Navigates projects, branches, commits and tags, browses model elements and relationships, retrieves requirements and views, and runs parametric evaluations via the OMG SysML v2 API."
       },
-      "useCases": { "zh": ["需求追踪", "模型导航", "参数化分析", "模型审查"], "en": ["Requirements traceability", "Model navigation", "Parametric analysis", "Model review"] },
-      "platforms": ["Claude", "MCP"],
-      "sysmlVersions": ["SysML v2"],
-      "capabilities": { "zh": ["模型查询", "需求提取", "关系追踪", "参数化计算"], "en": ["Model queries", "Requirement extraction", "Relationship tracing", "Parametric evaluation"] },
+      "useCases": {
+        "zh": [
+          "需求追踪",
+          "模型导航",
+          "参数化分析",
+          "模型审查"
+        ],
+        "en": [
+          "Requirements traceability",
+          "Model navigation",
+          "Parametric analysis",
+          "Model review"
+        ]
+      },
+      "platforms": [
+        "Claude",
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v2"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型查询",
+          "需求提取",
+          "关系追踪",
+          "参数化计算"
+        ],
+        "en": [
+          "Model queries",
+          "Requirement extraction",
+          "Relationship tracing",
+          "Parametric evaluation"
+        ]
+      },
       "openSource": "closed",
       "license": null,
       "verification": "pending",
       "confidence": "medium",
       "maturity": "emerging",
       "installation": "advanced",
-      "privacy": { "zh": "公开资料未说明完整数据处理边界，试用前应向作者确认。", "en": "Public material does not fully document data handling; confirm with the author before use." },
+      "privacy": {
+        "zh": "公开资料未说明完整数据处理边界，试用前应向作者确认。",
+        "en": "Public material does not fully document data handling; confirm with the author before use."
+      },
       "offline": "unknown",
       "githubUrl": null,
       "githubRepo": null,
       "homepageUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
       "sourceUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
-      "lastVerified": "2026-07-26",
+      "lastVerified": "2026-07-29",
       "lastActivity": "2026-05-20",
       "stars": null,
       "sourceType": "Official website",
       "related": false
     },
     {
-      "id": "simulink-agentic-toolkit",
-      "slug": "simulink-agentic-toolkit",
-      "name": "Simulink Agentic Toolkit",
-      "kind": "Agent Toolkit",
+      "id": "sysml-ai-hub",
+      "slug": "sysml-ai-hub",
+      "name": "sysml-ai-hub",
+      "kind": "Skill",
       "summary": {
-        "zh": "让 AI Agent 读取、构建、编辑、测试模型并遵循 Model-Based Design 实践的 MCP 与 Skill 工具集。",
-        "en": "An MCP and skills toolkit that enables AI agents to read, build, edit, and test models using Model-Based Design practices."
+        "zh": "A bilingual catalog of SysML v1/v2 AI plugins, skills, MCP servers, and agents.",
+        "en": "A bilingual catalog of SysML v1/v2 AI plugins, skills, MCP servers, and agents."
       },
       "functionality": {
-        "zh": "组合 MCP 工具与领域 Skill，覆盖模型读取、编辑、仿真、测试、需求、项目管理和架构建模。它不是 SysML 专用工具，但适合作为 MBSE 下游验证与仿真阶段的相关项目。",
-        "en": "Combines MCP tools and domain skills for model reading, editing, simulation, testing, requirements, project management, and architecture. It is adjacent to SysML rather than SysML-specific."
+        "zh": "公开描述：A bilingual catalog of SysML v1/v2 AI plugins, skills, MCP servers, and agents.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "A bilingual catalog of SysML v1/v2 AI plugins, skills, MCP servers, and agents. This rule-extracted description requires human verification."
       },
-      "useCases": { "zh": ["架构分析", "模型仿真", "模型测试", "验证分析"], "en": ["Architecture analysis", "Model simulation", "Model testing", "Verification analysis"] },
-      "platforms": ["Claude Code", "Codex", "GitHub Copilot", "Gemini CLI", "MCP"],
-      "sysmlVersions": ["通用 MBSE"],
-      "capabilities": { "zh": ["模型编辑", "仿真", "测试", "架构分析"], "en": ["Model editing", "Simulation", "Testing", "Architecture analysis"] },
+      "useCases": {
+        "zh": [
+          "模型理解",
+          "模型审查"
+        ],
+        "en": [
+          "Model comprehension",
+          "Model review"
+        ]
+      },
+      "platforms": [
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v1"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
       "openSource": "open",
-      "license": "Repository license",
-      "verification": "verified",
-      "confidence": "high",
-      "maturity": "growing",
+      "license": null,
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
       "installation": "advanced",
-      "privacy": { "zh": "工具可连接本地 MATLAB/Simulink 会话；AI 客户端的数据策略仍需单独评估。", "en": "Tools can connect to a local MATLAB/Simulink session; the AI client's data policy must be evaluated separately." },
-      "offline": "partial",
-      "githubUrl": "https://github.com/matlab/simulink-agentic-toolkit",
-      "githubRepo": "matlab/simulink-agentic-toolkit",
-      "homepageUrl": "https://github.com/matlab/simulink-agentic-toolkit",
-      "sourceUrl": "https://github.com/matlab/simulink-agentic-toolkit",
-      "lastVerified": "2026-07-26",
-      "lastActivity": "2026-07-10",
-      "stars": null,
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/dream123master/sysml-ai-hub",
+      "githubRepo": "dream123master/sysml-ai-hub",
+      "homepageUrl": "https://github.com/dream123master/sysml-ai-hub",
+      "sourceUrl": "https://github.com/dream123master/sysml-ai-hub",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-07-26",
+      "stars": 0,
       "sourceType": "GitHub",
-      "related": true
+      "related": false
+    },
+    {
+      "id": "sysml-v2-modeling-skill",
+      "slug": "sysml-v2-modeling-skill",
+      "name": "sysml-v2-modeling-skill",
+      "kind": "Skill",
+      "summary": {
+        "zh": "自动检索发现的 SysML/MBSE AI 候选项目，等待进一步核验。",
+        "en": "自动检索发现的 SysML/MBSE AI 候选项目，等待进一步核验。"
+      },
+      "functionality": {
+        "zh": "公开描述：自动检索发现的 SysML/MBSE AI 候选项目，等待进一步核验。。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "自动检索发现的 SysML/MBSE AI 候选项目，等待进一步核验。 This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型理解"
+        ],
+        "en": [
+          "Model comprehension"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML v2"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": "CC-BY-4.0",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
+      "githubRepo": "MJP-Sys/sysml-v2-modeling-skill",
+      "homepageUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
+      "sourceUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
+      "lastVerified": "2026-07-29",
+      "lastActivity": "2026-06-07",
+      "stars": 18,
+      "sourceType": "GitHub",
+      "related": false
     }
   ],
   "updates": [
     {
+      "date": "2026-07-29",
+      "type": "discovery",
+      "title": {
+        "zh": "自动发现 8 个候选项目",
+        "en": "Discovered 8 candidates"
+      },
+      "details": {
+        "zh": "检查 GitHub、npm、官方 MCP Registry 与已收录项目页面；更新 4 个项目元数据。新候选默认标记为待验证。",
+        "en": "Checked GitHub, npm, the official MCP Registry, and curated project pages; refreshed 4 project records. New candidates are pending by default."
+      },
+      "added": 8,
+      "updated": 4
+    },
+    {
       "date": "2026-07-26",
       "type": "initial",
-      "title": { "zh": "建立首批项目目录", "en": "Initial catalog created" },
-      "details": { "zh": "从 GitHub、npm、VS Code Marketplace、Skill 目录与项目官网核验首批 SysML v1、SysML v2 和相关 MBSE AI 工具。", "en": "Verified the first SysML v1, SysML v2, and related MBSE AI tools from GitHub, npm, VS Code Marketplace, skill directories, and project websites." },
+      "title": {
+        "zh": "建立首批项目目录",
+        "en": "Initial catalog created"
+      },
+      "details": {
+        "zh": "从 GitHub、npm、VS Code Marketplace、Skill 目录与项目官网核验首批 SysML v1、SysML v2 和相关 MBSE AI 工具。",
+        "en": "Verified the first SysML v1, SysML v2, and related MBSE AI tools from GitHub, npm, VS Code Marketplace, skill directories, and project websites."
+      },
       "added": 7,
       "updated": 0
     }
