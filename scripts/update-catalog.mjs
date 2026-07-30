@@ -195,11 +195,22 @@ if (successfulSources === 0) throw new Error("No catalog source could be reached
 catalog.meta.lastUpdated = today;
 catalog.meta.nextUpdate = nextUpdate;
 catalog.projects.sort((a, b) => Number(b.verification === "verified") - Number(a.verification === "verified") || a.name.localeCompare(b.name));
+const noDataChanges = added === 0 && updated === 0;
 catalog.updates.unshift({
   date: today,
   type: added ? "discovery" : "refresh",
-  title: { zh: added ? `自动发现 ${added} 个候选项目` : "完成定期数据刷新", en: added ? `Discovered ${added} candidates` : "Scheduled data refresh completed" },
-  details: { zh: `检查 GitHub、npm、官方 MCP Registry 与已收录项目页面；更新 ${updated} 个项目元数据。新候选默认标记为待验证。`, en: `Checked GitHub, npm, the official MCP Registry, and curated project pages; refreshed ${updated} project records. New candidates are pending by default.` },
+  title: {
+    zh: added ? `自动发现 ${added} 个候选项目` : noDataChanges ? "本次检查无数据变化" : "完成定期数据刷新",
+    en: added ? `Discovered ${added} candidates` : noDataChanges ? "No data changes found" : "Scheduled data refresh completed",
+  },
+  details: {
+    zh: noDataChanges
+      ? "已检查 GitHub、npm、官方 MCP Registry 与已收录项目页面；本次未发现新候选项目或项目元数据变化。"
+      : `检查 GitHub、npm、官方 MCP Registry 与已收录项目页面；更新 ${updated} 个项目元数据。新候选默认标记为待验证。`,
+    en: noDataChanges
+      ? "Checked GitHub, npm, the official MCP Registry, and curated project pages; no new candidates or project metadata changes were found."
+      : `Checked GitHub, npm, the official MCP Registry, and curated project pages; refreshed ${updated} project records. New candidates are pending by default.`,
+  },
   added,
   updated,
 });

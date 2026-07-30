@@ -29,15 +29,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
       - name: Search and refresh catalog
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_UPDATE: ${{ inputs.force || 'false' }}
         run: node scripts/update-catalog.mjs
       - name: Commit catalog changes
+        id: catalog
         run: |
           if git diff --quiet -- data/catalog.json; then
             echo "No catalog changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "sysml-ai-hub-bot"
@@ -45,3 +48,31 @@ jobs:
           git add data/catalog.json
           git commit -m "data: refresh SysML AI catalog"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Commits created with GITHUB_TOKEN do not trigger push workflows, so the
+      # scheduled update must build and deploy the refreshed catalog itself.
+      - name: Install dependencies
+        if: steps.catalog.outputs.changed == 'true' && github.ref == 'refs/heads/main'
+        run: npm ci
+
+      - name: Build static site
+        if: steps.catalog.outputs.changed == 'true' && github.ref == 'refs/heads/main'
+        run: npm run build
+
+      - name: Install CloudBase CLI
+        if: steps.catalog.outputs.changed == 'true' && github.ref == 'refs/heads/main'
+        run: npm install --global @cloudbase/cli@2.11.5
+
+      - name: Log in to CloudBase
+        if: steps.catalog.outputs.changed == 'true' && github.ref == 'refs/heads/main'
+        env:
+          TCB_SECRET_ID: ${{ secrets.TCB_SECRET_ID }}
+          TCB_SECRET_KEY: ${{ secrets.TCB_SECRET_KEY }}
+        run: tcb login --apiKeyId "$TCB_SECRET_ID" --apiKey "$TCB_SECRET_KEY"
+
+      - name: Deploy static export
+        if: steps.catalog.outputs.changed == 'true' && github.ref == 'refs/heads/main'
+        env:
+          TCB_ENV_ID: ${{ secrets.TCB_ENV_ID }}
+        run: tcb hosting deploy ./out / -e "$TCB_ENV_ID"
