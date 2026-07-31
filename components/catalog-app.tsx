@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { CalendarDays, ChevronRight, Search, SlidersHorizontal, X } from "lucide-react";
+import { CalendarDays, ChevronRight, Download, Search, SlidersHorizontal, X } from "lucide-react";
 import { useDeferredValue, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { CatalogData, CatalogProject, Language } from "@/lib/types";
@@ -90,6 +90,9 @@ export function CatalogApp({ data }: { data: CatalogData }) {
               <span><CalendarDays size={17} />{t.lastUpdated} <strong>{formatDate(data.meta.lastUpdated, language)}</strong></span>
               <span><CalendarDays size={17} />{t.nextUpdated} <strong>{formatDate(data.meta.nextUpdate, language)}</strong></span>
               <Link href="/updates">{t.viewUpdates}<ChevronRight size={16} /></Link>
+              <a className="report-download" href="/reports/sysml-ai-research-report.docx" download>
+                <Download size={16} />{t.downloadReport}
+              </a>
             </div>
           </div>
           <SysmlMotif />
