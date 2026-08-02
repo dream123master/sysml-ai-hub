@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-30",
-    "nextUpdate": "2026-08-02",
+    "lastUpdated": "2026-08-02",
+    "nextUpdate": "2026-08-05",
     "intervalDays": 3,
     "sources": [
       "GitHub",
@@ -155,9 +155,9 @@
       "githubRepo": "matlab/simulink-agentic-toolkit",
       "homepageUrl": "https://github.com/matlab/simulink-agentic-toolkit",
       "sourceUrl": "https://github.com/matlab/simulink-agentic-toolkit",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-07-29",
-      "stars": 882,
+      "stars": 895,
       "sourceType": "GitHub",
       "related": true
     },
@@ -226,7 +226,7 @@
       "githubRepo": "smp4/claude-skills",
       "homepageUrl": "https://skills.rest/skill/sysmlv2",
       "sourceUrl": "https://skills.rest/skill/sysmlv2",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-05-11",
       "stars": 0,
       "sourceType": "Skill directory",
@@ -298,7 +298,7 @@
       "githubRepo": "hni-ase/SysMLV2-mcp",
       "homepageUrl": "https://github.com/hni-ase/SysMLV2-mcp",
       "sourceUrl": "https://github.com/hni-ase/SysMLV2-mcp",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-07-06",
       "stars": 3,
       "sourceType": "GitHub",
@@ -370,10 +370,72 @@
       "githubRepo": null,
       "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
       "sourceUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-06-30",
       "stars": null,
       "sourceType": "Marketplace",
+      "related": false
+    },
+    {
+      "id": "engineer-fumi-sysml-v2-mcp",
+      "slug": "engineer-fumi-sysml-v2-mcp",
+      "name": "@engineer-fumi/sysml-v2-mcp",
+      "kind": "MCP Server",
+      "summary": {
+        "zh": "Standalone MCP (Model Context Protocol) server for SysML v2 (.sysml / .kerml) — parse, validate, outline, requirements and diagram structure over stdio. Companion to the SysML v2 Studio VS Code extension.",
+        "en": "Standalone MCP (Model Context Protocol) server for SysML v2 (.sysml / .kerml) — parse, validate, outline, requirements and diagram structure over stdio. Companion to the SysML v2 Studio VS Code extension."
+      },
+      "functionality": {
+        "zh": "公开描述：Standalone MCP (Model Context Protocol) server for SysML v2 (.sysml / .kerml) — parse, validate, outline, requirements and diagram structure over stdio. Companion to the SysML v2 Studio VS Code extension.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Standalone MCP (Model Context Protocol) server for SysML v2 (.sysml / .kerml) — parse, validate, outline, requirements and diagram structure over stdio. Companion to the SysML v2 Studio VS Code extension. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "需求建模",
+          "架构设计",
+          "模型验证"
+        ],
+        "en": [
+          "Requirements modeling",
+          "Architecture design",
+          "Model validation"
+        ]
+      },
+      "platforms": [
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v2"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型验证",
+          "模型查询"
+        ],
+        "en": [
+          "Model validation",
+          "Model queries"
+        ]
+      },
+      "openSource": "open",
+      "license": null,
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/engineer-fumi/sysml-v2-studio",
+      "githubRepo": null,
+      "homepageUrl": "https://github.com/engineer-fumi/sysml-v2-studio#readme",
+      "sourceUrl": "https://www.npmjs.com/package/@engineer-fumi/sysml-v2-mcp",
+      "lastVerified": "2026-08-02",
+      "lastActivity": "2026-07-07",
+      "stars": null,
+      "sourceType": "npm",
       "related": false
     },
     {
@@ -428,7 +490,7 @@
       "githubRepo": "ajhcs/cameo-mcp-bridge",
       "homepageUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
       "sourceUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-05-05",
       "stars": 29,
       "sourceType": "GitHub",
@@ -488,9 +550,9 @@
       "githubRepo": "Agents365-ai/drawio-skill",
       "homepageUrl": "https://github.com/Agents365-ai/drawio-skill",
       "sourceUrl": "https://github.com/Agents365-ai/drawio-skill",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-07-25",
-      "stars": 6910,
+      "stars": 7023,
       "sourceType": "GitHub",
       "related": false
     },
@@ -557,9 +619,9 @@
       "githubRepo": "melodic-software/claude-code-plugins",
       "homepageUrl": "https://github.com/melodic-software/claude-code-plugins",
       "sourceUrl": "https://github.com/melodic-software/claude-code-plugins",
-      "lastVerified": "2026-07-30",
-      "lastActivity": "2026-07-30",
-      "stars": 6,
+      "lastVerified": "2026-08-02",
+      "lastActivity": "2026-08-01",
+      "stars": 5,
       "sourceType": "GitHub",
       "related": false
     },
@@ -613,7 +675,7 @@
       "githubRepo": "loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
       "homepageUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
       "sourceUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-07-28",
       "stars": 1,
       "sourceType": "GitHub",
@@ -671,7 +733,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-07-04",
       "stars": 0,
       "sourceType": "GitHub",
@@ -729,7 +791,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-pro",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-06-26",
       "stars": 0,
       "sourceType": "GitHub",
@@ -785,7 +847,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-06-27",
       "stars": 1,
       "sourceType": "GitHub",
@@ -841,11 +903,125 @@
       "githubRepo": "Casys-AI/mcp-syson",
       "homepageUrl": "https://github.com/Casys-AI/mcp-syson",
       "sourceUrl": "https://github.com/Casys-AI/mcp-syson",
-      "lastVerified": "2026-07-30",
-      "lastActivity": "2026-07-30",
+      "lastVerified": "2026-08-02",
+      "lastActivity": "2026-08-01",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
+    },
+    {
+      "id": "mycelium-hypha",
+      "slug": "mycelium-hypha",
+      "name": "mycelium-hypha",
+      "kind": "Skill",
+      "summary": {
+        "zh": "Hypha is the AI agent of the Mycelium ecosystem, a connecting filament between engineers and the SysML v2 specification. Packaged as a Claude plugin with skills and subagents for metamodel lookup, spec citation, and SysML v2 validation.",
+        "en": "Hypha is the AI agent of the Mycelium ecosystem, a connecting filament between engineers and the SysML v2 specification. Packaged as a Claude plugin with skills and subagents for metamodel lookup, spec citation, and SysML v2 validation."
+      },
+      "functionality": {
+        "zh": "公开描述：Hypha is the AI agent of the Mycelium ecosystem, a connecting filament between engineers and the SysML v2 specification. Packaged as a Claude plugin with skills and subagents for metamodel lookup, spec citation, and SysML v2 validation.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Hypha is the AI agent of the Mycelium ecosystem, a connecting filament between engineers and the SysML v2 specification. Packaged as a Claude plugin with skills and subagents for metamodel lookup, spec citation, and SysML v2 validation. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型验证"
+        ],
+        "en": [
+          "Model validation"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML v2"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型验证"
+        ],
+        "en": [
+          "Model validation"
+        ]
+      },
+      "openSource": "open",
+      "license": "Apache-2.0",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/mycelium-cmbse/mycelium-hypha",
+      "githubRepo": "mycelium-cmbse/mycelium-hypha",
+      "homepageUrl": "https://github.com/mycelium-cmbse/mycelium-hypha",
+      "sourceUrl": "https://github.com/mycelium-cmbse/mycelium-hypha",
+      "lastVerified": "2026-08-02",
+      "lastActivity": "2026-08-01",
+      "stars": 9,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "sidkolapalli",
+      "slug": "sidkolapalli",
+      "name": "sidkolapalli",
+      "kind": "Agent",
+      "summary": {
+        "zh": "Automotive systems, simulation, MBSE, and AI-assisted engineering tools.",
+        "en": "Automotive systems, simulation, MBSE, and AI-assisted engineering tools."
+      },
+      "functionality": {
+        "zh": "公开描述：Automotive systems, simulation, MBSE, and AI-assisted engineering tools.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Automotive systems, simulation, MBSE, and AI-assisted engineering tools. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型理解",
+          "模型审查"
+        ],
+        "en": [
+          "Model comprehension",
+          "Model review"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML (version unspecified)"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": null,
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/sidkolapalli/sidkolapalli",
+      "githubRepo": "sidkolapalli/sidkolapalli",
+      "homepageUrl": "https://github.com/sidkolapalli/sidkolapalli",
+      "sourceUrl": "https://github.com/sidkolapalli/sidkolapalli",
+      "lastVerified": "2026-08-02",
+      "lastActivity": "2026-08-01",
+      "stars": 0,
+      "sourceType": "GitHub",
+      "related": true
     },
     {
       "id": "raghunath-sysml-v2-mcp",
@@ -910,7 +1086,7 @@
       "githubRepo": null,
       "homepageUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
       "sourceUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-05-20",
       "stars": null,
       "sourceType": "Official website",
@@ -968,8 +1144,66 @@
       "githubRepo": "dream123master/sysml-ai-hub",
       "homepageUrl": "https://github.com/dream123master/sysml-ai-hub",
       "sourceUrl": "https://github.com/dream123master/sysml-ai-hub",
-      "lastVerified": "2026-07-30",
-      "lastActivity": "2026-07-30",
+      "lastVerified": "2026-08-02",
+      "lastActivity": "2026-08-01",
+      "stars": 0,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "sysml-v2-lsp",
+      "slug": "sysml-v2-lsp",
+      "name": "sysml-v2-lsp",
+      "kind": "MCP Server",
+      "summary": {
+        "zh": "SysML v2 LSP/MCP server (forked from daltskin/sysml-v2-lsp)",
+        "en": "SysML v2 LSP/MCP server (forked from daltskin/sysml-v2-lsp)"
+      },
+      "functionality": {
+        "zh": "公开描述：SysML v2 LSP/MCP server (forked from daltskin/sysml-v2-lsp)。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "SysML v2 LSP/MCP server (forked from daltskin/sysml-v2-lsp) This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型理解",
+          "模型审查"
+        ],
+        "en": [
+          "Model comprehension",
+          "Model review"
+        ]
+      },
+      "platforms": [
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML v2"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": "MIT",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/debaditya-mohankudo/sysml-v2-lsp",
+      "githubRepo": "debaditya-mohankudo/sysml-v2-lsp",
+      "homepageUrl": "https://github.com/debaditya-mohankudo/sysml-v2-lsp",
+      "sourceUrl": "https://github.com/debaditya-mohankudo/sysml-v2-lsp",
+      "lastVerified": "2026-08-02",
+      "lastActivity": "2026-08-01",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
@@ -1024,14 +1258,28 @@
       "githubRepo": "MJP-Sys/sysml-v2-modeling-skill",
       "homepageUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
       "sourceUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
-      "lastVerified": "2026-07-30",
+      "lastVerified": "2026-08-02",
       "lastActivity": "2026-06-07",
-      "stars": 18,
+      "stars": 19,
       "sourceType": "GitHub",
       "related": false
     }
   ],
   "updates": [
+    {
+      "date": "2026-08-02",
+      "type": "discovery",
+      "title": {
+        "zh": "自动发现 4 个候选项目",
+        "en": "Discovered 4 candidates"
+      },
+      "details": {
+        "zh": "检查 GitHub、npm、官方 MCP Registry 与已收录项目页面；更新 6 个项目元数据。新候选默认标记为待验证。",
+        "en": "Checked GitHub, npm, the official MCP Registry, and curated project pages; refreshed 6 project records. New candidates are pending by default."
+      },
+      "added": 4,
+      "updated": 6
+    },
     {
       "date": "2026-07-30",
       "type": "discovery",
