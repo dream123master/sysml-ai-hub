@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-08",
-    "nextUpdate": "2026-08-11",
+    "lastUpdated": "2026-08-11",
+    "nextUpdate": "2026-08-14",
     "intervalDays": 3,
     "sources": [
       "GitHub",
@@ -155,9 +155,9 @@
       "githubRepo": "matlab/simulink-agentic-toolkit",
       "homepageUrl": "https://github.com/matlab/simulink-agentic-toolkit",
       "sourceUrl": "https://github.com/matlab/simulink-agentic-toolkit",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-08-05",
-      "stars": 913,
+      "stars": 921,
       "sourceType": "GitHub",
       "related": true
     },
@@ -226,7 +226,7 @@
       "githubRepo": "smp4/claude-skills",
       "homepageUrl": "https://skills.rest/skill/sysmlv2",
       "sourceUrl": "https://skills.rest/skill/sysmlv2",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-05-11",
       "stars": 0,
       "sourceType": "Skill directory",
@@ -298,7 +298,7 @@
       "githubRepo": "hni-ase/SysMLV2-mcp",
       "homepageUrl": "https://github.com/hni-ase/SysMLV2-mcp",
       "sourceUrl": "https://github.com/hni-ase/SysMLV2-mcp",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-08-04",
       "stars": 3,
       "sourceType": "GitHub",
@@ -370,7 +370,7 @@
       "githubRepo": null,
       "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
       "sourceUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-06-30",
       "stars": null,
       "sourceType": "Marketplace",
@@ -490,7 +490,7 @@
       "githubRepo": "ajhcs/cameo-mcp-bridge",
       "homepageUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
       "sourceUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-05-05",
       "stars": 30,
       "sourceType": "GitHub",
@@ -550,9 +550,67 @@
       "githubRepo": "Agents365-ai/drawio-skill",
       "homepageUrl": "https://github.com/Agents365-ai/drawio-skill",
       "sourceUrl": "https://github.com/Agents365-ai/drawio-skill",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-08-05",
-      "stars": 7294,
+      "stars": 7421,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "focustick",
+      "slug": "focustick",
+      "name": "FocusTick",
+      "kind": "Agent",
+      "summary": {
+        "zh": "C# WPF Pomodoro timer — multi-agent V-model demo: Gemini(Core)+Codex(Tests)+Qwen(UI)+aichat(SysML)",
+        "en": "C# WPF Pomodoro timer — multi-agent V-model demo: Gemini(Core)+Codex(Tests)+Qwen(UI)+aichat(SysML)"
+      },
+      "functionality": {
+        "zh": "公开描述：C# WPF Pomodoro timer — multi-agent V-model demo: Gemini(Core)+Codex(Tests)+Qwen(UI)+aichat(SysML)。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "C# WPF Pomodoro timer — multi-agent V-model demo: Gemini(Core)+Codex(Tests)+Qwen(UI)+aichat(SysML) This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型理解",
+          "模型审查"
+        ],
+        "en": [
+          "Model comprehension",
+          "Model review"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML (version unspecified)"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": null,
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/Foadsf/FocusTick",
+      "githubRepo": "Foadsf/FocusTick",
+      "homepageUrl": "https://github.com/Foadsf/FocusTick",
+      "sourceUrl": "https://github.com/Foadsf/FocusTick",
+      "lastVerified": "2026-08-11",
+      "lastActivity": "2026-08-10",
+      "stars": 0,
       "sourceType": "GitHub",
       "related": false
     },
@@ -619,9 +677,9 @@
       "githubRepo": "melodic-software/claude-code-plugins",
       "homepageUrl": "https://github.com/melodic-software/claude-code-plugins",
       "sourceUrl": "https://github.com/melodic-software/claude-code-plugins",
-      "lastVerified": "2026-08-08",
-      "lastActivity": "2026-08-08",
-      "stars": 5,
+      "lastVerified": "2026-08-11",
+      "lastActivity": "2026-08-11",
+      "stars": 6,
       "sourceType": "GitHub",
       "related": false
     },
@@ -675,8 +733,8 @@
       "githubRepo": "loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
       "homepageUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
       "sourceUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
-      "lastVerified": "2026-08-08",
-      "lastActivity": "2026-08-04",
+      "lastVerified": "2026-08-11",
+      "lastActivity": "2026-08-10",
       "stars": 1,
       "sourceType": "GitHub",
       "related": false
@@ -733,7 +791,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-07-04",
       "stars": 0,
       "sourceType": "GitHub",
@@ -791,7 +849,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-pro",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-06-26",
       "stars": 0,
       "sourceType": "GitHub",
@@ -847,7 +905,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-06-27",
       "stars": 1,
       "sourceType": "GitHub",
@@ -903,11 +961,67 @@
       "githubRepo": "Casys-AI/mcp-syson",
       "homepageUrl": "https://github.com/Casys-AI/mcp-syson",
       "sourceUrl": "https://github.com/Casys-AI/mcp-syson",
-      "lastVerified": "2026-08-08",
-      "lastActivity": "2026-08-08",
+      "lastVerified": "2026-08-11",
+      "lastActivity": "2026-08-10",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
+    },
+    {
+      "id": "mora-pochettino",
+      "slug": "mora-pochettino",
+      "name": "mora-pochettino",
+      "kind": "Agent",
+      "summary": {
+        "zh": "Systems Engineer building AI-enabled tooling for defense & space systems — MBSE, requirements engineering, and V&V accelerated with LLMs",
+        "en": "Systems Engineer building AI-enabled tooling for defense & space systems — MBSE, requirements engineering, and V&V accelerated with LLMs"
+      },
+      "functionality": {
+        "zh": "公开描述：Systems Engineer building AI-enabled tooling for defense & space systems — MBSE, requirements engineering, and V&V accelerated with LLMs。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Systems Engineer building AI-enabled tooling for defense & space systems — MBSE, requirements engineering, and V&V accelerated with LLMs This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "需求建模"
+        ],
+        "en": [
+          "Requirements modeling"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML (version unspecified)"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": null,
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/mora-pochettino/mora-pochettino",
+      "githubRepo": "mora-pochettino/mora-pochettino",
+      "homepageUrl": "https://github.com/mora-pochettino/mora-pochettino",
+      "sourceUrl": "https://github.com/mora-pochettino/mora-pochettino",
+      "lastVerified": "2026-08-11",
+      "lastActivity": "2026-08-10",
+      "stars": 0,
+      "sourceType": "GitHub",
+      "related": true
     },
     {
       "id": "mycelium-hypha",
@@ -959,7 +1073,7 @@
       "githubRepo": "mycelium-cmbse/mycelium-hypha",
       "homepageUrl": "https://github.com/mycelium-cmbse/mycelium-hypha",
       "sourceUrl": "https://github.com/mycelium-cmbse/mycelium-hypha",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-08-07",
       "stars": 9,
       "sourceType": "GitHub",
@@ -1017,7 +1131,7 @@
       "githubRepo": "sidkolapalli/sidkolapalli",
       "homepageUrl": "https://github.com/sidkolapalli/sidkolapalli",
       "sourceUrl": "https://github.com/sidkolapalli/sidkolapalli",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-08-01",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1086,7 +1200,7 @@
       "githubRepo": null,
       "homepageUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
       "sourceUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-05-20",
       "stars": null,
       "sourceType": "Official website",
@@ -1144,8 +1258,8 @@
       "githubRepo": "dream123master/sysml-ai-hub",
       "homepageUrl": "https://github.com/dream123master/sysml-ai-hub",
       "sourceUrl": "https://github.com/dream123master/sysml-ai-hub",
-      "lastVerified": "2026-08-08",
-      "lastActivity": "2026-08-07",
+      "lastVerified": "2026-08-11",
+      "lastActivity": "2026-08-10",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
@@ -1202,8 +1316,8 @@
       "githubRepo": "debaditya-mohankudo/sysml-v2-lsp",
       "homepageUrl": "https://github.com/debaditya-mohankudo/sysml-v2-lsp",
       "sourceUrl": "https://github.com/debaditya-mohankudo/sysml-v2-lsp",
-      "lastVerified": "2026-08-08",
-      "lastActivity": "2026-08-01",
+      "lastVerified": "2026-08-11",
+      "lastActivity": "2026-08-08",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
@@ -1258,7 +1372,7 @@
       "githubRepo": "MJP-Sys/sysml-v2-modeling-skill",
       "homepageUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
       "sourceUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-06-07",
       "stars": 19,
       "sourceType": "GitHub",
@@ -1316,7 +1430,7 @@
       "githubRepo": "williamweatherholtz/sysmlv2-ai-toolkit",
       "homepageUrl": "https://github.com/williamweatherholtz/sysmlv2-ai-toolkit",
       "sourceUrl": "https://github.com/williamweatherholtz/sysmlv2-ai-toolkit",
-      "lastVerified": "2026-08-08",
+      "lastVerified": "2026-08-11",
       "lastActivity": "2026-08-07",
       "stars": 1,
       "sourceType": "GitHub",
@@ -1324,6 +1438,20 @@
     }
   ],
   "updates": [
+    {
+      "date": "2026-08-11",
+      "type": "discovery",
+      "title": {
+        "zh": "自动发现 2 个候选项目",
+        "en": "Discovered 2 candidates"
+      },
+      "details": {
+        "zh": "检查 GitHub、npm、官方 MCP Registry 与已收录项目页面；更新 7 个项目元数据。新候选默认标记为待验证。",
+        "en": "Checked GitHub, npm, the official MCP Registry, and curated project pages; refreshed 7 project records. New candidates are pending by default."
+      },
+      "added": 2,
+      "updated": 7
+    },
     {
       "date": "2026-08-08",
       "type": "discovery",
