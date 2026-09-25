@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastUpdated": "2026-09-22",
-    "nextUpdate": "2026-09-25",
+    "lastUpdated": "2026-09-25",
+    "nextUpdate": "2026-09-28",
     "intervalDays": 3,
     "sources": [
       "GitHub",
@@ -155,9 +155,9 @@
       "githubRepo": "matlab/simulink-agentic-toolkit",
       "homepageUrl": "https://github.com/matlab/simulink-agentic-toolkit",
       "sourceUrl": "https://github.com/matlab/simulink-agentic-toolkit",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-16",
-      "stars": 1138,
+      "stars": 1149,
       "sourceType": "GitHub",
       "related": true
     },
@@ -226,7 +226,7 @@
       "githubRepo": "smp4/claude-skills",
       "homepageUrl": "https://skills.rest/skill/sysmlv2",
       "sourceUrl": "https://skills.rest/skill/sysmlv2",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-05-11",
       "stars": 0,
       "sourceType": "Skill directory",
@@ -298,7 +298,7 @@
       "githubRepo": "hni-ase/SysMLV2-mcp",
       "homepageUrl": "https://github.com/hni-ase/SysMLV2-mcp",
       "sourceUrl": "https://github.com/hni-ase/SysMLV2-mcp",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-08-19",
       "stars": 3,
       "sourceType": "GitHub",
@@ -370,7 +370,7 @@
       "githubRepo": null,
       "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
       "sourceUrl": "https://marketplace.visualstudio.com/items?itemName=VPATHAIGmbH.vpathai-sysmlv2-agent",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-06-30",
       "stars": null,
       "sourceType": "Marketplace",
@@ -490,9 +490,9 @@
       "githubRepo": "ajhcs/cameo-mcp-bridge",
       "homepageUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
       "sourceUrl": "https://github.com/ajhcs/cameo-mcp-bridge",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-04",
-      "stars": 39,
+      "stars": 40,
       "sourceType": "GitHub",
       "related": false
     },
@@ -550,9 +550,9 @@
       "githubRepo": "Agents365-ai/drawio-skill",
       "homepageUrl": "https://github.com/Agents365-ai/drawio-skill",
       "sourceUrl": "https://github.com/Agents365-ai/drawio-skill",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-14",
-      "stars": 9587,
+      "stars": 9664,
       "sourceType": "GitHub",
       "related": false
     },
@@ -608,7 +608,7 @@
       "githubRepo": "Foadsf/FocusTick",
       "homepageUrl": "https://github.com/Foadsf/FocusTick",
       "sourceUrl": "https://github.com/Foadsf/FocusTick",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-08-10",
       "stars": 0,
       "sourceType": "GitHub",
@@ -677,9 +677,9 @@
       "githubRepo": "melodic-software/claude-code-plugins",
       "homepageUrl": "https://github.com/melodic-software/claude-code-plugins",
       "sourceUrl": "https://github.com/melodic-software/claude-code-plugins",
-      "lastVerified": "2026-09-22",
-      "lastActivity": "2026-09-22",
-      "stars": 17,
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-25",
+      "stars": 19,
       "sourceType": "GitHub",
       "related": false
     },
@@ -735,7 +735,7 @@
       "githubRepo": "slotti64/HL7-HSRA_E2-SFM2SysMLv2-Agent",
       "homepageUrl": "https://github.com/slotti64/HL7-HSRA_E2-SFM2SysMLv2-Agent",
       "sourceUrl": "https://github.com/slotti64/HL7-HSRA_E2-SFM2SysMLv2-Agent",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-02",
       "stars": 0,
       "sourceType": "GitHub",
@@ -791,7 +791,7 @@
       "githubRepo": "loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
       "homepageUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
       "sourceUrl": "https://github.com/loonwerks/INSPECTA-Spec-Code-Proof-Copilot",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-08-10",
       "stars": 1,
       "sourceType": "GitHub",
@@ -849,7 +849,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-mcp",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-10",
       "stars": 4,
       "sourceType": "GitHub",
@@ -907,7 +907,7 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-pro",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-pro",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-08",
       "stars": 1,
       "sourceType": "GitHub",
@@ -963,11 +963,69 @@
       "githubRepo": "jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgs-magic-sysmlv1-read-skills",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-16",
       "stars": 2,
       "sourceType": "GitHub",
       "related": false
+    },
+    {
+      "id": "jgsystemsconsulting",
+      "slug": "jgsystemsconsulting",
+      "name": "jgsystemsconsulting",
+      "kind": "Skill",
+      "summary": {
+        "zh": "Profile landing page for JG Systems Consulting Ltd: curated index of MBSE lists, MCP bridges, agent skills, and labs.",
+        "en": "Profile landing page for JG Systems Consulting Ltd: curated index of MBSE lists, MCP bridges, agent skills, and labs."
+      },
+      "functionality": {
+        "zh": "公开描述：Profile landing page for JG Systems Consulting Ltd: curated index of MBSE lists, MCP bridges, agent skills, and labs.。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "Profile landing page for JG Systems Consulting Ltd: curated index of MBSE lists, MCP bridges, agent skills, and labs. This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型理解",
+          "模型审查"
+        ],
+        "en": [
+          "Model comprehension",
+          "Model review"
+        ]
+      },
+      "platforms": [
+        "MCP"
+      ],
+      "sysmlVersions": [
+        "SysML (version unspecified)"
+      ],
+      "capabilities": {
+        "zh": [
+          "待进一步分析"
+        ],
+        "en": [
+          "Pending analysis"
+        ]
+      },
+      "openSource": "open",
+      "license": null,
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/jgsystemsconsulting/jgsystemsconsulting",
+      "githubRepo": "jgsystemsconsulting/jgsystemsconsulting",
+      "homepageUrl": "https://github.com/jgsystemsconsulting/jgsystemsconsulting",
+      "sourceUrl": "https://github.com/jgsystemsconsulting/jgsystemsconsulting",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-24",
+      "stars": 0,
+      "sourceType": "GitHub",
+      "related": true
     },
     {
       "id": "jgsystemsconsulting-website",
@@ -1021,7 +1079,7 @@
       "githubRepo": "jgsystemsconsulting/jgsystemsconsulting-website",
       "homepageUrl": "https://github.com/jgsystemsconsulting/jgsystemsconsulting-website",
       "sourceUrl": "https://github.com/jgsystemsconsulting/jgsystemsconsulting-website",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-18",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1079,8 +1137,8 @@
       "githubRepo": "williamweatherholtz/keel",
       "homepageUrl": "https://github.com/williamweatherholtz/keel",
       "sourceUrl": "https://github.com/williamweatherholtz/keel",
-      "lastVerified": "2026-09-22",
-      "lastActivity": "2026-09-21",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-24",
       "stars": 1,
       "sourceType": "GitHub",
       "related": false
@@ -1137,7 +1195,7 @@
       "githubRepo": "rahulr-1006/mappy_mini",
       "homepageUrl": "https://github.com/rahulr-1006/mappy_mini",
       "sourceUrl": "https://github.com/rahulr-1006/mappy_mini",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-14",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1193,9 +1251,65 @@
       "githubRepo": "Nepomuceno/mbse-local-ai-demo",
       "homepageUrl": "https://github.com/Nepomuceno/mbse-local-ai-demo",
       "sourceUrl": "https://github.com/Nepomuceno/mbse-local-ai-demo",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-08-27",
       "stars": 1,
+      "sourceType": "GitHub",
+      "related": false
+    },
+    {
+      "id": "mbse-workflow",
+      "slug": "mbse-workflow",
+      "name": "mbse-workflow",
+      "kind": "Agent",
+      "summary": {
+        "zh": "LLM-agent workflow that authors layered, SysML-like models and gates every step on Sysprose checks",
+        "en": "LLM-agent workflow that authors layered, SysML-like models and gates every step on Sysprose checks"
+      },
+      "functionality": {
+        "zh": "公开描述：LLM-agent workflow that authors layered, SysML-like models and gates every step on Sysprose checks。该功能说明由规则提取，需在下一次人工复核时确认。",
+        "en": "LLM-agent workflow that authors layered, SysML-like models and gates every step on Sysprose checks This rule-extracted description requires human verification."
+      },
+      "useCases": {
+        "zh": [
+          "模型验证"
+        ],
+        "en": [
+          "Model validation"
+        ]
+      },
+      "platforms": [
+        "To verify"
+      ],
+      "sysmlVersions": [
+        "SysML (version unspecified)"
+      ],
+      "capabilities": {
+        "zh": [
+          "模型验证"
+        ],
+        "en": [
+          "Model validation"
+        ]
+      },
+      "openSource": "open",
+      "license": "MIT",
+      "verification": "pending",
+      "confidence": "low",
+      "maturity": "emerging",
+      "installation": "advanced",
+      "privacy": {
+        "zh": "自动发现项目，数据隐私与离线能力尚待核验。",
+        "en": "Automatically discovered candidate; privacy and offline behavior are not yet verified."
+      },
+      "offline": "unknown",
+      "githubUrl": "https://github.com/cosmindxu/mbse-workflow",
+      "githubRepo": "cosmindxu/mbse-workflow",
+      "homepageUrl": "https://github.com/cosmindxu/mbse-workflow",
+      "sourceUrl": "https://github.com/cosmindxu/mbse-workflow",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-25",
+      "stars": 0,
       "sourceType": "GitHub",
       "related": false
     },
@@ -1305,7 +1419,7 @@
       "githubRepo": "Casys-AI/mcp-syson",
       "homepageUrl": "https://github.com/Casys-AI/mcp-syson",
       "sourceUrl": "https://github.com/Casys-AI/mcp-syson",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-05",
       "stars": 3,
       "sourceType": "GitHub",
@@ -1363,7 +1477,7 @@
       "githubRepo": "modelwrite/modelwrite",
       "homepageUrl": "https://github.com/modelwrite/modelwrite",
       "sourceUrl": "https://github.com/modelwrite/modelwrite",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-22",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1419,7 +1533,7 @@
       "githubRepo": "mora-pochettino/mora-pochettino",
       "homepageUrl": "https://github.com/mora-pochettino/mora-pochettino",
       "sourceUrl": "https://github.com/mora-pochettino/mora-pochettino",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-08-10",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1475,7 +1589,7 @@
       "githubRepo": "mycelium-cmbse/mycelium-hypha",
       "homepageUrl": "https://github.com/mycelium-cmbse/mycelium-hypha",
       "sourceUrl": "https://github.com/mycelium-cmbse/mycelium-hypha",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-07",
       "stars": 11,
       "sourceType": "GitHub",
@@ -1533,7 +1647,7 @@
       "githubRepo": "sukrisl/se-buddy-agent",
       "homepageUrl": "https://github.com/sukrisl/se-buddy-agent",
       "sourceUrl": "https://github.com/sukrisl/se-buddy-agent",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-01",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1591,7 +1705,7 @@
       "githubRepo": "sidkolapalli/sidkolapalli",
       "homepageUrl": "https://github.com/sidkolapalli/sidkolapalli",
       "sourceUrl": "https://github.com/sidkolapalli/sidkolapalli",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-08-01",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1660,7 +1774,7 @@
       "githubRepo": null,
       "homepageUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
       "sourceUrl": "https://www.linkedin.com/pulse/sysml-v2-mcp-server-available-all-raghunath-torase-dvirf",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-05-20",
       "stars": null,
       "sourceType": "Official website",
@@ -1718,8 +1832,8 @@
       "githubRepo": "dream123master/sysml-ai-hub",
       "homepageUrl": "https://github.com/dream123master/sysml-ai-hub",
       "sourceUrl": "https://github.com/dream123master/sysml-ai-hub",
-      "lastVerified": "2026-09-22",
-      "lastActivity": "2026-09-21",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-24",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
@@ -1776,7 +1890,7 @@
       "githubRepo": "RickyMillar/sysml-rs",
       "homepageUrl": "https://github.com/RickyMillar/sysml-rs",
       "sourceUrl": "https://github.com/RickyMillar/sysml-rs",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-17",
       "stars": 1,
       "sourceType": "GitHub",
@@ -1834,7 +1948,7 @@
       "githubRepo": "debaditya-mohankudo/sysml-v2-lsp",
       "homepageUrl": "https://github.com/debaditya-mohankudo/sysml-v2-lsp",
       "sourceUrl": "https://github.com/debaditya-mohankudo/sysml-v2-lsp",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-12",
       "stars": 0,
       "sourceType": "GitHub",
@@ -1892,8 +2006,8 @@
       "githubRepo": "daltskin/sysml-v2-lsp",
       "homepageUrl": "https://github.com/daltskin/sysml-v2-lsp",
       "sourceUrl": "https://github.com/daltskin/sysml-v2-lsp",
-      "lastVerified": "2026-09-22",
-      "lastActivity": "2026-09-21",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-25",
       "stars": 17,
       "sourceType": "GitHub",
       "related": false
@@ -1948,7 +2062,7 @@
       "githubRepo": "MJP-Sys/sysml-v2-modeling-skill",
       "homepageUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
       "sourceUrl": "https://github.com/MJP-Sys/sysml-v2-modeling-skill",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-06-07",
       "stars": 20,
       "sourceType": "GitHub",
@@ -2004,8 +2118,8 @@
       "githubRepo": "Elliades/SysML2-spec-gpt",
       "homepageUrl": "https://github.com/Elliades/SysML2-spec-gpt",
       "sourceUrl": "https://github.com/Elliades/SysML2-spec-gpt",
-      "lastVerified": "2026-09-22",
-      "lastActivity": "2026-09-10",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-23",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
@@ -2120,8 +2234,8 @@
       "githubRepo": "williamweatherholtz/sysmlv2-ai-toolkit",
       "homepageUrl": "https://github.com/williamweatherholtz/sysmlv2-ai-toolkit",
       "sourceUrl": "https://github.com/williamweatherholtz/sysmlv2-ai-toolkit",
-      "lastVerified": "2026-09-22",
-      "lastActivity": "2026-09-21",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-24",
       "stars": 1,
       "sourceType": "GitHub",
       "related": false
@@ -2176,7 +2290,7 @@
       "githubRepo": "cosmindxu/sysprose",
       "homepageUrl": "https://github.com/cosmindxu/sysprose",
       "sourceUrl": "https://github.com/cosmindxu/sysprose",
-      "lastVerified": "2026-09-22",
+      "lastVerified": "2026-09-25",
       "lastActivity": "2026-09-18",
       "stars": 1,
       "sourceType": "GitHub",
@@ -2236,14 +2350,28 @@
       "githubRepo": "masaki-kato-119/verifying_SysML_v2_agentic_rag",
       "homepageUrl": "https://github.com/masaki-kato-119/verifying_SysML_v2_agentic_rag",
       "sourceUrl": "https://github.com/masaki-kato-119/verifying_SysML_v2_agentic_rag",
-      "lastVerified": "2026-09-22",
-      "lastActivity": "2026-09-18",
+      "lastVerified": "2026-09-25",
+      "lastActivity": "2026-09-25",
       "stars": 0,
       "sourceType": "GitHub",
       "related": false
     }
   ],
   "updates": [
+    {
+      "date": "2026-09-25",
+      "type": "discovery",
+      "title": {
+        "zh": "自动发现 2 个候选项目",
+        "en": "Discovered 2 candidates"
+      },
+      "details": {
+        "zh": "检查 GitHub、npm、官方 MCP Registry 与已收录项目页面；更新 10 个项目元数据。新候选默认标记为待验证。",
+        "en": "Checked GitHub, npm, the official MCP Registry, and curated project pages; refreshed 10 project records. New candidates are pending by default."
+      },
+      "added": 2,
+      "updated": 10
+    },
     {
       "date": "2026-09-22",
       "type": "refresh",
